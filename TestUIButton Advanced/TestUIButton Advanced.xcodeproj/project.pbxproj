@@ -37,23 +37,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BD974513181055FC00F6BD14 /* TestUIButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestUIButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD974513181055FC00F6BD14 /* TestUIButton Advanced.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestUIButton Advanced.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD974516181055FC00F6BD14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BD974518181055FC00F6BD14 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BD97451A181055FC00F6BD14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		BD97451E181055FC00F6BD14 /* TestUIButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestUIButton-Info.plist"; sourceTree = "<group>"; };
+		BD97451E181055FC00F6BD14 /* TestUIButton Advanced-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestUIButton Advanced-Info.plist"; sourceTree = "<group>"; };
 		BD974520181055FC00F6BD14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BD974522181055FC00F6BD14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BD974524181055FC00F6BD14 /* TestUIButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestUIButton-Prefix.pch"; sourceTree = "<group>"; };
+		BD974524181055FC00F6BD14 /* TestUIButton Advanced-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestUIButton Advanced-Prefix.pch"; sourceTree = "<group>"; };
 		BD974525181055FC00F6BD14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD974526181055FC00F6BD14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BD974529181055FC00F6BD14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD97452B181055FC00F6BD14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BD97452C181055FC00F6BD14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BD97452E181055FC00F6BD14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BD974534181055FC00F6BD14 /* TestUIButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUIButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD974534181055FC00F6BD14 /* TestUIButton AdvancedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestUIButton AdvancedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD974535181055FC00F6BD14 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		BD97453D181055FC00F6BD14 /* TestUIButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestUIButtonTests-Info.plist"; sourceTree = "<group>"; };
+		BD97453D181055FC00F6BD14 /* TestUIButton AdvancedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestUIButton AdvancedTests-Info.plist"; sourceTree = "<group>"; };
 		BD97453F181055FC00F6BD14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BD974541181055FC00F6BD14 /* TestUIButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUIButtonTests.m; sourceTree = "<group>"; };
 		BD97454B1810561000F6BD14 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
@@ -99,8 +99,8 @@
 		BD974514181055FC00F6BD14 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD974513181055FC00F6BD14 /* TestUIButton.app */,
-				BD974534181055FC00F6BD14 /* TestUIButtonTests.xctest */,
+				BD974513181055FC00F6BD14 /* TestUIButton Advanced.app */,
+				BD974534181055FC00F6BD14 /* TestUIButton AdvancedTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,10 +137,10 @@
 		BD97451D181055FC00F6BD14 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BD97451E181055FC00F6BD14 /* TestUIButton-Info.plist */,
+				BD97451E181055FC00F6BD14 /* TestUIButton Advanced-Info.plist */,
 				BD97451F181055FC00F6BD14 /* InfoPlist.strings */,
 				BD974522181055FC00F6BD14 /* main.m */,
-				BD974524181055FC00F6BD14 /* TestUIButton-Prefix.pch */,
+				BD974524181055FC00F6BD14 /* TestUIButton Advanced-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -157,7 +157,7 @@
 		BD97453C181055FC00F6BD14 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BD97453D181055FC00F6BD14 /* TestUIButtonTests-Info.plist */,
+				BD97453D181055FC00F6BD14 /* TestUIButton AdvancedTests-Info.plist */,
 				BD97453E181055FC00F6BD14 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -166,9 +166,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BD974512181055FC00F6BD14 /* TestUIButton */ = {
+		BD974512181055FC00F6BD14 /* TestUIButton Advanced */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD974545181055FC00F6BD14 /* Build configuration list for PBXNativeTarget "TestUIButton" */;
+			buildConfigurationList = BD974545181055FC00F6BD14 /* Build configuration list for PBXNativeTarget "TestUIButton Advanced" */;
 			buildPhases = (
 				BD97450F181055FC00F6BD14 /* Sources */,
 				BD974510181055FC00F6BD14 /* Frameworks */,
@@ -178,14 +178,14 @@
 			);
 			dependencies = (
 			);
-			name = TestUIButton;
+			name = "TestUIButton Advanced";
 			productName = TestUIButton;
-			productReference = BD974513181055FC00F6BD14 /* TestUIButton.app */;
+			productReference = BD974513181055FC00F6BD14 /* TestUIButton Advanced.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BD974533181055FC00F6BD14 /* TestUIButtonTests */ = {
+		BD974533181055FC00F6BD14 /* TestUIButton AdvancedTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD974548181055FC00F6BD14 /* Build configuration list for PBXNativeTarget "TestUIButtonTests" */;
+			buildConfigurationList = BD974548181055FC00F6BD14 /* Build configuration list for PBXNativeTarget "TestUIButton AdvancedTests" */;
 			buildPhases = (
 				BD974530181055FC00F6BD14 /* Sources */,
 				BD974531181055FC00F6BD14 /* Frameworks */,
@@ -196,9 +196,9 @@
 			dependencies = (
 				BD97453A181055FC00F6BD14 /* PBXTargetDependency */,
 			);
-			name = TestUIButtonTests;
+			name = "TestUIButton AdvancedTests";
 			productName = TestUIButtonTests;
-			productReference = BD974534181055FC00F6BD14 /* TestUIButtonTests.xctest */;
+			productReference = BD974534181055FC00F6BD14 /* TestUIButton AdvancedTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BD97450E181055FC00F6BD14 /* Build configuration list for PBXProject "TestUIButton" */;
+			buildConfigurationList = BD97450E181055FC00F6BD14 /* Build configuration list for PBXProject "TestUIButton Advanced" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -228,8 +228,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BD974512181055FC00F6BD14 /* TestUIButton */,
-				BD974533181055FC00F6BD14 /* TestUIButtonTests */,
+				BD974512181055FC00F6BD14 /* TestUIButton Advanced */,
+				BD974533181055FC00F6BD14 /* TestUIButton AdvancedTests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,7 +282,7 @@
 /* Begin PBXTargetDependency section */
 		BD97453A181055FC00F6BD14 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BD974512181055FC00F6BD14 /* TestUIButton */;
+			target = BD974512181055FC00F6BD14 /* TestUIButton Advanced */;
 			targetProxy = BD974539181055FC00F6BD14 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -393,9 +393,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestUIButton/TestUIButton-Prefix.pch";
-				INFOPLIST_FILE = "TestUIButton/TestUIButton-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TestUIButton/TestUIButton Advanced-Prefix.pch";
+				INFOPLIST_FILE = "TestUIButton/TestUIButton Advanced-Info.plist";
+				PRODUCT_NAME = "TestUIButton Advanced";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,9 +406,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestUIButton/TestUIButton-Prefix.pch";
-				INFOPLIST_FILE = "TestUIButton/TestUIButton-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TestUIButton/TestUIButton Advanced-Prefix.pch";
+				INFOPLIST_FILE = "TestUIButton/TestUIButton Advanced-Info.plist";
+				PRODUCT_NAME = "TestUIButton Advanced";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -429,8 +429,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TestUIButtonTests/TestUIButtonTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TestUIButtonTests/TestUIButton AdvancedTests-Info.plist";
+				PRODUCT_NAME = "TestUIButton AdvancedTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -448,8 +448,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestUIButton/TestUIButton-Prefix.pch";
-				INFOPLIST_FILE = "TestUIButtonTests/TestUIButtonTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TestUIButtonTests/TestUIButton AdvancedTests-Info.plist";
+				PRODUCT_NAME = "TestUIButton AdvancedTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -458,7 +458,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BD97450E181055FC00F6BD14 /* Build configuration list for PBXProject "TestUIButton" */ = {
+		BD97450E181055FC00F6BD14 /* Build configuration list for PBXProject "TestUIButton Advanced" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD974543181055FC00F6BD14 /* Debug */,
@@ -467,21 +467,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD974545181055FC00F6BD14 /* Build configuration list for PBXNativeTarget "TestUIButton" */ = {
+		BD974545181055FC00F6BD14 /* Build configuration list for PBXNativeTarget "TestUIButton Advanced" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD974546181055FC00F6BD14 /* Debug */,
 				BD974547181055FC00F6BD14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		BD974548181055FC00F6BD14 /* Build configuration list for PBXNativeTarget "TestUIButtonTests" */ = {
+		BD974548181055FC00F6BD14 /* Build configuration list for PBXNativeTarget "TestUIButton AdvancedTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD974549181055FC00F6BD14 /* Debug */,
 				BD97454A181055FC00F6BD14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

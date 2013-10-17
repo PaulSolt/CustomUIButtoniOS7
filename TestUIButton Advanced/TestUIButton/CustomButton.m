@@ -20,8 +20,6 @@
 
         [self addTarget:self action:@selector(buttonPressed:) forControlEvents:UIControlEventTouchUpInside];
 
-        [self removeConstraints:self.constraints];
-//        [self setNeedsUpdateConstraints];
     }
     return self;
 }
@@ -37,12 +35,13 @@
 
 - (void)didMoveToSuperview {
      NSLog(@"super: %@", self.constraints);
+    [self setNeedsUpdateConstraints];
+
 }
 
 
 - (void)updateConstraints {
-    // Always call at end
-    [super updateConstraints];
+    [self removeConstraints:self.constraints];
 
 //    self.translatesAutoresizingMaskIntoConstraints = YES;
     self.imageView.translatesAutoresizingMaskIntoConstraints = NO;
@@ -110,7 +109,8 @@
             break;
     }
     
-    
+    // Always call at end
+    [super updateConstraints];
 }
 
 /*
