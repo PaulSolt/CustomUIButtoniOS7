@@ -1,4 +1,4 @@
-CustomUIButtoniOS7
+Custom UIButton on iOS7
 ==================
 
 The project demonstraits how to create a custom UIButton on iOS 7.0 that will dim when Pressed. Additionally for advanced AutoLayout customization it shows how to change NSLayoutConstraints on the button's UIImageView property. This allows you to relayout the button beyond it's limitations for positioning the text label or the image view.
