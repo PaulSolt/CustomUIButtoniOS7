@@ -38,6 +38,27 @@
     [customButton setBackgroundImage:backgroundImage forState:UIControlStateNormal];
     
     [self.view addSubview:customButton];
+    
+//    
+    customButton.translatesAutoresizingMaskIntoConstraints = NO;
+    
+    [self.view addConstraints:[NSLayoutConstraint
+                          constraintsWithVisualFormat:@"V:[customButton(==100)]"
+                          options:NSLayoutFormatDirectionLeadingToTrailing metrics:nil
+                          views:NSDictionaryOfVariableBindings(customButton)]];
+    
+    [self.view addConstraints:[NSLayoutConstraint
+                          constraintsWithVisualFormat:@"H:[customButton(==200)]"
+                          options:NSLayoutFormatDirectionLeadingToTrailing
+                          metrics:nil
+                          views:NSDictionaryOfVariableBindings(customButton)]];
+    
+    NSLayoutConstraint *centerXConstraint = [NSLayoutConstraint constraintWithItem:customButton attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeCenterX multiplier:1 constant:0];
+    NSLayoutConstraint *centerYConstraint = [NSLayoutConstraint constraintWithItem:customButton attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeCenterY multiplier:1 constant:0];
+    
+    [self.view addConstraint:centerXConstraint];
+    [self.view addConstraint:centerYConstraint];
+
 }
 
 - (void)didReceiveMemoryWarning
